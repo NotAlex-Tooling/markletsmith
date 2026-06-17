@@ -48,9 +48,3 @@ To go the other way, switch to **decode** and paste an existing bookmarklet to g
 - Keep the final output under ~2000 characters for the best browser compatibility.
 - Prefix an external URL with `!loadOnce` to avoid injecting it twice on repeat clicks.
 - Test your code in the devtools console before generating.
-
----
-
-<div align="center">
-Built by <a href="https://notalex.sh">notalex.sh</a>
-</div>
