@@ -492,6 +492,12 @@
 				</div>
 			</div>
 		</div>
+
+		<footer class="site-footer">
+			<a href="https://github.com/NotAlex-Tooling/" target="_blank" rel="noopener noreferrer">Tooling by NotAlex</a>
+			<span class="sep">·</span>
+			<a href="https://github.com/NotAlex-Tooling/markletsmith" target="_blank" rel="noopener noreferrer">source code</a>
+		</footer>
 	</div>
 
 		<div class="toast" class:show={toastVisible}>
@@ -1422,5 +1428,27 @@
 		font-size: 10px;
 		color: #666;
 		line-height: 1.6;
+	}
+
+	.site-footer {
+		margin-top: 40px;
+		padding-top: 16px;
+		border-top: 1px solid #1e1e1e;
+		text-align: center;
+		font-size: 10px;
+		letter-spacing: 1px;
+		color: #555;
+	}
+	.site-footer a {
+		color: #777;
+		text-decoration: none;
+		transition: color 0.2s;
+	}
+	.site-footer a:hover {
+		color: #7aa2d4;
+	}
+	.site-footer .sep {
+		margin: 0 8px;
+		color: #333;
 	}
 </style>
